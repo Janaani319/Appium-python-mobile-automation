@@ -43,8 +43,8 @@ class TestMySLT:
         login_btn = driver.find_element(AppiumBy.ID, "com.slt.selfcare:id/btn_login")
 
         # Enter credentials
-        username.send_keys("0702463497")
-        password.send_keys("0002139")
+        username.send_keys("0701231233")
+        password.send_keys("0001111")
         login_btn.click()
 
         # Verify successful login - check for homepage element
